@@ -1,0 +1,551 @@
+[0.013s] Invoking command in '/home/digitracknuc/imu_ws/build/vectornav_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/digitracknuc/imu_ws/vectornav_msgs -DCMAKE_INSTALL_PREFIX=/home/digitracknuc/imu_ws/install/vectornav_msgs
+[0.181s] -- The C compiler identification is GNU 11.4.0
+[0.356s] -- The CXX compiler identification is GNU 11.4.0
+[0.367s] -- Detecting C compiler ABI info
+[0.450s] -- Detecting C compiler ABI info - done
+[0.460s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.461s] -- Detecting C compile features
+[0.461s] -- Detecting C compile features - done
+[0.465s] -- Detecting CXX compiler ABI info
+[0.531s] -- Detecting CXX compiler ABI info - done
+[0.539s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.539s] -- Detecting CXX compile features
+[0.540s] -- Detecting CXX compile features - done
+[0.547s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.729s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.863s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.908s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.914s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.925s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.943s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.965s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.091s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.100s] [0mGrabbing messages action/MagCal.action[0m
+[1.493s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.847s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.985s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.003s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[2.004s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.026s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[2.027s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.027s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.027s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.043s] -- Found PythonExtra: .so  
+[2.110s] -- Configuring done
+[2.155s] -- Generating done
+[2.157s] -- Build files have been written to: /home/digitracknuc/imu_ws/build/vectornav_msgs
+[2.167s] Invoked command in '/home/digitracknuc/imu_ws/build/vectornav_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/digitracknuc/imu_ws/vectornav_msgs -DCMAKE_INSTALL_PREFIX=/home/digitracknuc/imu_ws/install/vectornav_msgs
+[2.167s] Invoking command in '/home/digitracknuc/imu_ws/build/vectornav_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/digitracknuc/imu_ws/build/vectornav_msgs -- -j12 -l12
+[2.199s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.206s] [  1%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.212s] [  1%] Built target ament_cmake_python_copy_vectornav_msgs
+[2.421s] running egg_info
+[2.421s] creating vectornav_msgs.egg-info
+[2.421s] writing vectornav_msgs.egg-info/PKG-INFO
+[2.422s] writing dependency_links to vectornav_msgs.egg-info/dependency_links.txt
+[2.422s] writing top-level names to vectornav_msgs.egg-info/top_level.txt
+[2.422s] writing manifest file 'vectornav_msgs.egg-info/SOURCES.txt'
+[2.424s] reading manifest file 'vectornav_msgs.egg-info/SOURCES.txt'
+[2.424s] writing manifest file 'vectornav_msgs.egg-info/SOURCES.txt'
+[2.444s] [  1%] Built target ament_cmake_python_build_vectornav_msgs_egg
+[3.850s] [  4%] [32mBuilding C object CMakeFiles/vectornav_msgs__rosidl_generator_c.dir/rosidl_generator_c/vectornav_msgs/msg/detail/common_group__functions.c.o[0m
+[3.851s] [  4%] [32mBuilding C object CMakeFiles/vectornav_msgs__rosidl_generator_c.dir/rosidl_generator_c/vectornav_msgs/msg/detail/attitude_group__functions.c.o[0m
+[3.851s] [  4%] [32mBuilding C object CMakeFiles/vectornav_msgs__rosidl_generator_c.dir/rosidl_generator_c/vectornav_msgs/msg/detail/dop__functions.c.o[0m
+[3.851s] [  4%] [32mBuilding C object CMakeFiles/vectornav_msgs__rosidl_generator_c.dir/rosidl_generator_c/vectornav_msgs/msg/detail/gps_group__functions.c.o[0m
+[3.851s] [  5%] [32mBuilding C object CMakeFiles/vectornav_msgs__rosidl_generator_c.dir/rosidl_generator_c/vectornav_msgs/msg/detail/imu_group__functions.c.o[0m
+[3.852s] [  6%] [32mBuilding C object CMakeFiles/vectornav_msgs__rosidl_generator_c.dir/rosidl_generator_c/vectornav_msgs/msg/detail/ins_group__functions.c.o[0m
+[3.852s] [  9%] [32mBuilding C object CMakeFiles/vectornav_msgs__rosidl_generator_c.dir/rosidl_generator_c/vectornav_msgs/msg/detail/vpe_status__functions.c.o[0m
+[3.852s] [  9%] [32mBuilding C object CMakeFiles/vectornav_msgs__rosidl_generator_c.dir/rosidl_generator_c/vectornav_msgs/msg/detail/ins_status__functions.c.o[0m
+[3.852s] [ 10%] [32mBuilding C object CMakeFiles/vectornav_msgs__rosidl_generator_c.dir/rosidl_generator_c/vectornav_msgs/msg/detail/time_utc__functions.c.o[0m
+[3.852s] [ 10%] [32mBuilding C object CMakeFiles/vectornav_msgs__rosidl_generator_c.dir/rosidl_generator_c/vectornav_msgs/msg/detail/time_group__functions.c.o[0m
+[3.852s] [ 10%] [32mBuilding C object CMakeFiles/vectornav_msgs__rosidl_generator_c.dir/rosidl_generator_c/vectornav_msgs/msg/detail/time_status__functions.c.o[0m
+[3.925s] [ 11%] [32mBuilding C object CMakeFiles/vectornav_msgs__rosidl_generator_c.dir/rosidl_generator_c/vectornav_msgs/action/detail/mag_cal__functions.c.o[0m
+[3.972s] [ 11%] Built target vectornav_msgs__cpp
+[3.980s] [ 13%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[3.980s] [ 13%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[3.980s] [ 13%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[4.048s] [ 14%] [32m[1mLinking C shared library libvectornav_msgs__rosidl_generator_c.so[0m
+[4.083s] [ 14%] Built target vectornav_msgs__rosidl_generator_c
+[4.092s] [ 17%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[4.092s] [ 17%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[4.092s] [ 17%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[5.212s] [ 21%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vectornav_msgs/msg/ins_group__type_support.cpp.o[0m
+[5.212s] [ 21%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vectornav_msgs/msg/attitude_group__type_support.cpp.o[0m
+[5.212s] [ 21%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vectornav_msgs/msg/imu_group__type_support.cpp.o[0m
+[5.212s] [ 21%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vectornav_msgs/msg/gps_group__type_support.cpp.o[0m
+[5.212s] [ 22%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vectornav_msgs/msg/dop__type_support.cpp.o[0m
+[5.213s] [ 22%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vectornav_msgs/msg/ins_status__type_support.cpp.o[0m
+[5.213s] [ 23%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vectornav_msgs/msg/common_group__type_support.cpp.o[0m
+[5.446s] [ 24%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/vectornav_msgs/msg/attitude_group__type_support.cpp.o[0m
+[5.486s] [ 24%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/vectornav_msgs/msg/common_group__type_support.cpp.o[0m
+[5.525s] [ 25%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/vectornav_msgs/msg/dop__type_support.cpp.o[0m
+[5.561s] [ 26%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/vectornav_msgs/msg/gps_group__type_support.cpp.o[0m
+[5.599s] [ 27%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/vectornav_msgs/msg/imu_group__type_support.cpp.o[0m
+[5.616s] [ 29%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/vectornav_msgs/msg/ins_group__type_support.cpp.o[0m
+[5.616s] [ 29%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vectornav_msgs/msg/time_group__type_support.cpp.o[0m
+[5.618s] [ 32%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/vectornav_msgs/msg/time_group__type_support.cpp.o[0m
+[5.618s] [ 32%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vectornav_msgs/msg/time_utc__type_support.cpp.o[0m
+[5.618s] [ 32%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vectornav_msgs/msg/time_status__type_support.cpp.o[0m
+[5.618s] [ 32%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/vectornav_msgs/msg/ins_status__type_support.cpp.o[0m
+[5.621s] [ 32%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vectornav_msgs/msg/vpe_status__type_support.cpp.o[0m
+[5.622s] [ 32%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vectornav_msgs/msg/detail/attitude_group__type_support.cpp.o[0m
+[5.635s] [ 33%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vectornav_msgs/msg/detail/common_group__type_support.cpp.o[0m
+[5.653s] [ 35%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vectornav_msgs/action/mag_cal__type_support.cpp.o[0m
+[5.653s] [ 35%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/vectornav_msgs/msg/time_status__type_support.cpp.o[0m
+[5.656s] [ 36%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/vectornav_msgs/msg/time_utc__type_support.cpp.o[0m
+[5.689s] [ 37%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/vectornav_msgs/msg/vpe_status__type_support.cpp.o[0m
+[5.691s] [ 38%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/vectornav_msgs/action/mag_cal__type_support.cpp.o[0m
+[5.755s] [ 39%] [32m[1mLinking CXX shared library libvectornav_msgs__rosidl_typesupport_c.so[0m
+[5.813s] [ 39%] Built target vectornav_msgs__rosidl_typesupport_c
+[5.822s] [ 40%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vectornav_msgs/msg/detail/dop__type_support.cpp.o[0m
+[5.823s] [ 41%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vectornav_msgs/msg/detail/gps_group__type_support.cpp.o[0m
+[5.841s] [ 42%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vectornav_msgs/msg/detail/dds_fastrtps/attitude_group__type_support.cpp.o[0m
+[5.951s] [ 43%] [32mBuilding C object CMakeFiles/vectornav_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vectornav_msgs/msg/detail/attitude_group__type_support.c.o[0m
+[5.971s] [ 44%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vectornav_msgs/msg/detail/imu_group__type_support.cpp.o[0m
+[5.981s] [ 45%] [32mBuilding C object CMakeFiles/vectornav_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vectornav_msgs/msg/detail/common_group__type_support.c.o[0m
+[5.987s] [ 46%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vectornav_msgs/msg/detail/dds_fastrtps/common_group__type_support.cpp.o[0m
+[5.991s] [ 47%] [32mBuilding C object CMakeFiles/vectornav_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vectornav_msgs/msg/detail/dop__type_support.c.o[0m
+[6.003s] [ 47%] [32mBuilding C object CMakeFiles/vectornav_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vectornav_msgs/msg/detail/gps_group__type_support.c.o[0m
+[6.041s] [ 48%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vectornav_msgs/msg/detail/dds_fastrtps/dop__type_support.cpp.o[0m
+[6.049s] [ 49%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vectornav_msgs/msg/detail/dds_fastrtps/gps_group__type_support.cpp.o[0m
+[6.050s] [ 50%] [32mBuilding C object CMakeFiles/vectornav_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vectornav_msgs/msg/detail/imu_group__type_support.c.o[0m
+[6.074s] [ 51%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vectornav_msgs/msg/detail/attitude_group__type_support_c.cpp.o[0m
+[6.095s] [ 52%] [32mBuilding C object CMakeFiles/vectornav_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vectornav_msgs/msg/detail/ins_group__type_support.c.o[0m
+[6.142s] [ 53%] [32mBuilding C object CMakeFiles/vectornav_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vectornav_msgs/msg/detail/ins_status__type_support.c.o[0m
+[6.177s] [ 54%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vectornav_msgs/msg/detail/common_group__type_support_c.cpp.o[0m
+[6.183s] [ 55%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vectornav_msgs/msg/detail/ins_group__type_support.cpp.o[0m
+[6.184s] [ 56%] [32mBuilding C object CMakeFiles/vectornav_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vectornav_msgs/msg/detail/time_group__type_support.c.o[0m
+[6.229s] [ 57%] [32mBuilding C object CMakeFiles/vectornav_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vectornav_msgs/msg/detail/time_status__type_support.c.o[0m
+[6.270s] [ 58%] [32mBuilding C object CMakeFiles/vectornav_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vectornav_msgs/msg/detail/time_utc__type_support.c.o[0m
+[6.293s] [ 59%] [32m[1mLinking CXX shared library libvectornav_msgs__rosidl_typesupport_cpp.so[0m
+[6.312s] [ 59%] [32mBuilding C object CMakeFiles/vectornav_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vectornav_msgs/msg/detail/vpe_status__type_support.c.o[0m
+[6.347s] [ 59%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vectornav_msgs/msg/detail/ins_status__type_support.cpp.o[0m
+[6.347s] [ 60%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vectornav_msgs/msg/detail/time_group__type_support.cpp.o[0m
+[6.349s] [ 60%] Built target vectornav_msgs__rosidl_typesupport_cpp
+[6.355s] [ 61%] [32mBuilding C object CMakeFiles/vectornav_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vectornav_msgs/action/detail/mag_cal__type_support.c.o[0m
+[6.359s] [ 61%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vectornav_msgs/msg/detail/dop__type_support_c.cpp.o[0m
+[6.426s] [ 62%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vectornav_msgs/msg/detail/dds_fastrtps/imu_group__type_support.cpp.o[0m
+[6.428s] [ 63%] [32m[1mLinking C shared library libvectornav_msgs__rosidl_typesupport_introspection_c.so[0m
+[6.474s] [ 63%] Built target vectornav_msgs__rosidl_typesupport_introspection_c
+[6.484s] [ 63%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vectornav_msgs/msg/detail/dds_fastrtps/ins_group__type_support.cpp.o[0m
+[6.510s] [ 64%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vectornav_msgs/msg/detail/time_status__type_support.cpp.o[0m
+[6.553s] [ 65%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vectornav_msgs/msg/detail/time_utc__type_support.cpp.o[0m
+[6.557s] [ 66%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vectornav_msgs/msg/detail/gps_group__type_support_c.cpp.o[0m
+[6.586s] [ 67%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vectornav_msgs/msg/detail/vpe_status__type_support.cpp.o[0m
+[6.623s] [ 68%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vectornav_msgs/msg/detail/dds_fastrtps/ins_status__type_support.cpp.o[0m
+[6.667s] [ 69%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vectornav_msgs/msg/detail/imu_group__type_support_c.cpp.o[0m
+[6.724s] [ 70%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vectornav_msgs/action/detail/mag_cal__type_support.cpp.o[0m
+[6.814s] [ 71%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vectornav_msgs/msg/detail/ins_group__type_support_c.cpp.o[0m
+[6.864s] [ 72%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vectornav_msgs/msg/detail/ins_status__type_support_c.cpp.o[0m
+[6.880s] [ 73%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vectornav_msgs/msg/detail/time_group__type_support_c.cpp.o[0m
+[6.983s] [ 74%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vectornav_msgs/msg/detail/dds_fastrtps/time_group__type_support.cpp.o[0m
+[7.046s] [ 75%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vectornav_msgs/msg/detail/dds_fastrtps/time_status__type_support.cpp.o[0m
+[7.051s] [ 75%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vectornav_msgs/msg/detail/time_status__type_support_c.cpp.o[0m
+[7.062s] [ 76%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vectornav_msgs/msg/detail/dds_fastrtps/time_utc__type_support.cpp.o[0m
+[7.091s] [ 77%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vectornav_msgs/msg/detail/dds_fastrtps/vpe_status__type_support.cpp.o[0m
+[7.112s] [ 77%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vectornav_msgs/action/detail/dds_fastrtps/mag_cal__type_support.cpp.o[0m
+[7.142s] [ 78%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vectornav_msgs/msg/detail/time_utc__type_support_c.cpp.o[0m
+[7.168s] [ 79%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vectornav_msgs/msg/detail/vpe_status__type_support_c.cpp.o[0m
+[7.286s] [ 80%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vectornav_msgs/action/detail/mag_cal__type_support_c.cpp.o[0m
+[7.558s] [ 81%] [32m[1mLinking CXX shared library libvectornav_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[7.631s] [ 81%] Built target vectornav_msgs__rosidl_typesupport_introspection_cpp
+[7.728s] [ 82%] [32m[1mLinking CXX shared library libvectornav_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[7.763s] [ 83%] [32m[1mLinking CXX shared library libvectornav_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[7.795s] [ 83%] Built target vectornav_msgs__rosidl_typesupport_fastrtps_c
+[7.829s] [ 83%] Built target vectornav_msgs__rosidl_typesupport_fastrtps_cpp
+[7.844s] [ 83%] Built target vectornav_msgs
+[7.861s] [ 84%] [34m[1mGenerating Python code for ROS interfaces[0m
+[11.038s] [ 84%] Built target vectornav_msgs__py
+[11.053s] [ 85%] [32mBuilding C object CMakeFiles/vectornav_msgs__rosidl_generator_py.dir/rosidl_generator_py/vectornav_msgs/msg/_attitude_group_s.c.o[0m
+[11.054s] [ 85%] [32mBuilding C object CMakeFiles/vectornav_msgs__rosidl_generator_py.dir/rosidl_generator_py/vectornav_msgs/msg/_dop_s.c.o[0m
+[11.054s] [ 87%] [32mBuilding C object CMakeFiles/vectornav_msgs__rosidl_generator_py.dir/rosidl_generator_py/vectornav_msgs/msg/_common_group_s.c.o[0m
+[11.055s] [ 87%] [32mBuilding C object CMakeFiles/vectornav_msgs__rosidl_generator_py.dir/rosidl_generator_py/vectornav_msgs/msg/_gps_group_s.c.o[0m
+[11.055s] [ 88%] [32mBuilding C object CMakeFiles/vectornav_msgs__rosidl_generator_py.dir/rosidl_generator_py/vectornav_msgs/msg/_imu_group_s.c.o[0m
+[11.055s] [ 89%] [32mBuilding C object CMakeFiles/vectornav_msgs__rosidl_generator_py.dir/rosidl_generator_py/vectornav_msgs/msg/_ins_group_s.c.o[0m
+[11.055s] [ 90%] [32mBuilding C object CMakeFiles/vectornav_msgs__rosidl_generator_py.dir/rosidl_generator_py/vectornav_msgs/msg/_ins_status_s.c.o[0m
+[11.055s] [ 91%] [32mBuilding C object CMakeFiles/vectornav_msgs__rosidl_generator_py.dir/rosidl_generator_py/vectornav_msgs/msg/_time_group_s.c.o[0m
+[11.056s] [ 91%] [32mBuilding C object CMakeFiles/vectornav_msgs__rosidl_generator_py.dir/rosidl_generator_py/vectornav_msgs/msg/_time_utc_s.c.o[0m
+[11.056s] [ 92%] [32mBuilding C object CMakeFiles/vectornav_msgs__rosidl_generator_py.dir/rosidl_generator_py/vectornav_msgs/msg/_time_status_s.c.o[0m
+[11.056s] [ 93%] [32mBuilding C object CMakeFiles/vectornav_msgs__rosidl_generator_py.dir/rosidl_generator_py/vectornav_msgs/msg/_vpe_status_s.c.o[0m
+[11.064s] [ 94%] [32mBuilding C object CMakeFiles/vectornav_msgs__rosidl_generator_py.dir/rosidl_generator_py/vectornav_msgs/action/_mag_cal_s.c.o[0m
+[11.273s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/vectornav_msgs/libvectornav_msgs__rosidl_generator_py.so[0m
+[11.310s] [ 95%] Built target vectornav_msgs__rosidl_generator_py
+[11.325s] [ 97%] [32mBuilding C object CMakeFiles/vectornav_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/vectornav_msgs/_vectornav_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[11.325s] [ 97%] [32mBuilding C object CMakeFiles/vectornav_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/vectornav_msgs/_vectornav_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[11.325s] [ 97%] [32mBuilding C object CMakeFiles/vectornav_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/vectornav_msgs/_vectornav_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[11.452s] [100%] [32m[1mLinking C shared library rosidl_generator_py/vectornav_msgs/vectornav_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[11.452s] [100%] [32m[1mLinking C shared library rosidl_generator_py/vectornav_msgs/vectornav_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[11.452s] [100%] [32m[1mLinking C shared library rosidl_generator_py/vectornav_msgs/vectornav_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[11.487s] [100%] Built target vectornav_msgs__rosidl_typesupport_c__pyext
+[11.487s] [100%] Built target vectornav_msgs__rosidl_typesupport_fastrtps_c__pyext
+[11.488s] [100%] Built target vectornav_msgs__rosidl_typesupport_introspection_c__pyext
+[11.496s] Invoked command in '/home/digitracknuc/imu_ws/build/vectornav_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/digitracknuc/imu_ws/build/vectornav_msgs -- -j12 -l12
+[11.651s] Invoking command in '/home/digitracknuc/imu_ws/build/vectornav_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/digitracknuc/imu_ws/build/vectornav_msgs
+[11.656s] -- Install configuration: ""
+[11.657s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/share/ament_index/resource_index/rosidl_interfaces/vectornav_msgs
+[11.657s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs
+[11.657s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/action
+[11.657s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/action/detail
+[11.657s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/action/detail/mag_cal__functions.h
+[11.657s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/action/detail/mag_cal__type_support.h
+[11.657s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/action/detail/mag_cal__struct.h
+[11.657s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/action/detail/mag_cal__functions.c
+[11.657s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/action/mag_cal.h
+[11.657s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg
+[11.657s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail
+[11.658s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/time_group__struct.h
+[11.658s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/attitude_group__struct.h
+[11.658s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/time_utc__functions.h
+[11.658s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/imu_group__functions.h
+[11.658s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/ins_group__functions.h
+[11.658s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/imu_group__type_support.h
+[11.658s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/ins_status__type_support.h
+[11.658s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/common_group__struct.h
+[11.658s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/time_utc__type_support.h
+[11.658s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/time_utc__struct.h
+[11.658s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/time_group__type_support.h
+[11.658s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/dop__functions.h
+[11.658s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/vpe_status__struct.h
+[11.658s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/attitude_group__functions.h
+[11.659s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/dop__struct.h
+[11.659s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/time_group__functions.c
+[11.659s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/time_status__type_support.h
+[11.659s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/ins_status__functions.h
+[11.659s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/attitude_group__type_support.h
+[11.659s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/dop__functions.c
+[11.659s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/common_group__type_support.h
+[11.659s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/ins_group__functions.c
+[11.659s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/vpe_status__type_support.h
+[11.659s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/ins_group__struct.h
+[11.659s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/time_status__struct.h
+[11.659s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/attitude_group__functions.c
+[11.659s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/ins_status__struct.h
+[11.659s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/common_group__functions.h
+[11.659s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/dop__type_support.h
+[11.659s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/ins_group__type_support.h
+[11.660s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/imu_group__functions.c
+[11.660s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/gps_group__functions.c
+[11.660s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/time_status__functions.h
+[11.660s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/vpe_status__functions.h
+[11.660s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/ins_status__functions.c
+[11.660s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/time_status__functions.c
+[11.660s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/gps_group__functions.h
+[11.660s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/vpe_status__functions.c
+[11.660s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/imu_group__struct.h
+[11.660s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/gps_group__type_support.h
+[11.660s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/gps_group__struct.h
+[11.660s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/common_group__functions.c
+[11.660s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/time_utc__functions.c
+[11.660s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/time_group__functions.h
+[11.660s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/ins_status.h
+[11.661s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/vpe_status.h
+[11.661s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/common_group.h
+[11.661s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/time_utc.h
+[11.661s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/time_status.h
+[11.661s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/rosidl_generator_c__visibility_control.h
+[11.661s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/dop.h
+[11.661s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/ins_group.h
+[11.661s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/gps_group.h
+[11.661s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/attitude_group.h
+[11.661s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/time_group.h
+[11.661s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/imu_group.h
+[11.661s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/share/vectornav_msgs/environment/library_path.sh
+[11.661s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/share/vectornav_msgs/environment/library_path.dsv
+[11.661s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/lib/libvectornav_msgs__rosidl_generator_c.so
+[11.662s] -- Set runtime path of "/home/digitracknuc/imu_ws/install/vectornav_msgs/lib/libvectornav_msgs__rosidl_generator_c.so" to ""
+[11.662s] -- Up-to-date: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs
+[11.662s] -- Up-to-date: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/action
+[11.662s] -- Up-to-date: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/action/detail
+[11.662s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/action/detail/mag_cal__rosidl_typesupport_fastrtps_c.h
+[11.662s] -- Up-to-date: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg
+[11.662s] -- Up-to-date: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail
+[11.662s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/attitude_group__rosidl_typesupport_fastrtps_c.h
+[11.662s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/ins_group__rosidl_typesupport_fastrtps_c.h
+[11.662s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/common_group__rosidl_typesupport_fastrtps_c.h
+[11.662s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/time_group__rosidl_typesupport_fastrtps_c.h
+[11.662s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/vpe_status__rosidl_typesupport_fastrtps_c.h
+[11.663s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/time_utc__rosidl_typesupport_fastrtps_c.h
+[11.663s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/gps_group__rosidl_typesupport_fastrtps_c.h
+[11.663s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/ins_status__rosidl_typesupport_fastrtps_c.h
+[11.663s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/dop__rosidl_typesupport_fastrtps_c.h
+[11.663s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/imu_group__rosidl_typesupport_fastrtps_c.h
+[11.663s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/time_status__rosidl_typesupport_fastrtps_c.h
+[11.663s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[11.663s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/lib/libvectornav_msgs__rosidl_typesupport_fastrtps_c.so
+[11.663s] -- Set runtime path of "/home/digitracknuc/imu_ws/install/vectornav_msgs/lib/libvectornav_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[11.663s] -- Up-to-date: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs
+[11.663s] -- Up-to-date: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/action
+[11.663s] -- Up-to-date: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/action/detail
+[11.663s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/action/detail/mag_cal__builder.hpp
+[11.663s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/action/detail/mag_cal__struct.hpp
+[11.663s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/action/detail/mag_cal__traits.hpp
+[11.663s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/action/mag_cal.hpp
+[11.664s] -- Up-to-date: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg
+[11.664s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/common_group.hpp
+[11.664s] -- Up-to-date: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail
+[11.664s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/ins_group__traits.hpp
+[11.664s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/time_status__builder.hpp
+[11.664s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/ins_status__struct.hpp
+[11.664s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/time_group__traits.hpp
+[11.664s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/vpe_status__struct.hpp
+[11.664s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/vpe_status__traits.hpp
+[11.664s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/time_utc__struct.hpp
+[11.664s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/time_utc__builder.hpp
+[11.664s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/dop__traits.hpp
+[11.664s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/attitude_group__builder.hpp
+[11.664s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/attitude_group__struct.hpp
+[11.664s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/gps_group__builder.hpp
+[11.664s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/imu_group__builder.hpp
+[11.665s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/time_group__struct.hpp
+[11.665s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/time_status__struct.hpp
+[11.665s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/imu_group__traits.hpp
+[11.665s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/ins_group__builder.hpp
+[11.665s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/imu_group__struct.hpp
+[11.665s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/common_group__traits.hpp
+[11.665s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/gps_group__struct.hpp
+[11.665s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/common_group__builder.hpp
+[11.665s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/time_utc__traits.hpp
+[11.665s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/dop__struct.hpp
+[11.665s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/time_status__traits.hpp
+[11.665s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/ins_status__traits.hpp
+[11.665s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/time_group__builder.hpp
+[11.665s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/dop__builder.hpp
+[11.666s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/vpe_status__builder.hpp
+[11.666s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/attitude_group__traits.hpp
+[11.666s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/common_group__struct.hpp
+[11.666s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/ins_status__builder.hpp
+[11.666s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/gps_group__traits.hpp
+[11.666s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/ins_group__struct.hpp
+[11.666s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/vpe_status.hpp
+[11.666s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/ins_group.hpp
+[11.666s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/attitude_group.hpp
+[11.666s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/dop.hpp
+[11.666s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/ins_status.hpp
+[11.666s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/gps_group.hpp
+[11.666s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/imu_group.hpp
+[11.666s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/time_status.hpp
+[11.667s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/time_utc.hpp
+[11.667s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/time_group.hpp
+[11.667s] -- Up-to-date: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs
+[11.667s] -- Up-to-date: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/action
+[11.667s] -- Up-to-date: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/action/detail
+[11.667s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/action/detail/mag_cal__rosidl_typesupport_fastrtps_cpp.hpp
+[11.667s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/action/detail/dds_fastrtps
+[11.667s] -- Up-to-date: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg
+[11.667s] -- Up-to-date: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail
+[11.667s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/ins_status__rosidl_typesupport_fastrtps_cpp.hpp
+[11.667s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/attitude_group__rosidl_typesupport_fastrtps_cpp.hpp
+[11.667s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/dds_fastrtps
+[11.667s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/time_group__rosidl_typesupport_fastrtps_cpp.hpp
+[11.667s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/vpe_status__rosidl_typesupport_fastrtps_cpp.hpp
+[11.667s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/time_status__rosidl_typesupport_fastrtps_cpp.hpp
+[11.667s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/dop__rosidl_typesupport_fastrtps_cpp.hpp
+[11.667s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/ins_group__rosidl_typesupport_fastrtps_cpp.hpp
+[11.668s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/gps_group__rosidl_typesupport_fastrtps_cpp.hpp
+[11.668s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/time_utc__rosidl_typesupport_fastrtps_cpp.hpp
+[11.668s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/imu_group__rosidl_typesupport_fastrtps_cpp.hpp
+[11.668s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/common_group__rosidl_typesupport_fastrtps_cpp.hpp
+[11.668s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[11.668s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/lib/libvectornav_msgs__rosidl_typesupport_fastrtps_cpp.so
+[11.668s] -- Set runtime path of "/home/digitracknuc/imu_ws/install/vectornav_msgs/lib/libvectornav_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[11.668s] -- Up-to-date: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs
+[11.668s] -- Up-to-date: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/action
+[11.668s] -- Up-to-date: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/action/detail
+[11.668s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/action/detail/mag_cal__type_support.c
+[11.668s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/action/detail/mag_cal__rosidl_typesupport_introspection_c.h
+[11.668s] -- Up-to-date: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg
+[11.668s] -- Up-to-date: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail
+[11.668s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/gps_group__rosidl_typesupport_introspection_c.h
+[11.669s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/gps_group__type_support.c
+[11.669s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/ins_group__type_support.c
+[11.669s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/time_utc__rosidl_typesupport_introspection_c.h
+[11.669s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/vpe_status__type_support.c
+[11.669s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/dop__rosidl_typesupport_introspection_c.h
+[11.669s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/imu_group__type_support.c
+[11.669s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/time_group__type_support.c
+[11.669s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/attitude_group__rosidl_typesupport_introspection_c.h
+[11.669s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/vpe_status__rosidl_typesupport_introspection_c.h
+[11.669s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/time_utc__type_support.c
+[11.669s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/time_status__type_support.c
+[11.669s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/common_group__rosidl_typesupport_introspection_c.h
+[11.669s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/time_group__rosidl_typesupport_introspection_c.h
+[11.669s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/ins_status__rosidl_typesupport_introspection_c.h
+[11.670s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/dop__type_support.c
+[11.670s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/common_group__type_support.c
+[11.670s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/time_status__rosidl_typesupport_introspection_c.h
+[11.670s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/imu_group__rosidl_typesupport_introspection_c.h
+[11.670s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/attitude_group__type_support.c
+[11.670s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/ins_status__type_support.c
+[11.670s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/ins_group__rosidl_typesupport_introspection_c.h
+[11.670s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[11.670s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/lib/libvectornav_msgs__rosidl_typesupport_introspection_c.so
+[11.670s] -- Set runtime path of "/home/digitracknuc/imu_ws/install/vectornav_msgs/lib/libvectornav_msgs__rosidl_typesupport_introspection_c.so" to ""
+[11.670s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/lib/libvectornav_msgs__rosidl_typesupport_c.so
+[11.671s] -- Set runtime path of "/home/digitracknuc/imu_ws/install/vectornav_msgs/lib/libvectornav_msgs__rosidl_typesupport_c.so" to ""
+[11.671s] -- Up-to-date: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs
+[11.671s] -- Up-to-date: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/action
+[11.671s] -- Up-to-date: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/action/detail
+[11.671s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/action/detail/mag_cal__type_support.cpp
+[11.671s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/action/detail/mag_cal__rosidl_typesupport_introspection_cpp.hpp
+[11.671s] -- Up-to-date: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg
+[11.671s] -- Up-to-date: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail
+[11.671s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/imu_group__type_support.cpp
+[11.671s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/gps_group__type_support.cpp
+[11.671s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/time_utc__type_support.cpp
+[11.671s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/common_group__rosidl_typesupport_introspection_cpp.hpp
+[11.671s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/time_utc__rosidl_typesupport_introspection_cpp.hpp
+[11.671s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/time_status__type_support.cpp
+[11.671s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/gps_group__rosidl_typesupport_introspection_cpp.hpp
+[11.672s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/imu_group__rosidl_typesupport_introspection_cpp.hpp
+[11.672s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/dop__rosidl_typesupport_introspection_cpp.hpp
+[11.672s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/time_group__type_support.cpp
+[11.672s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/common_group__type_support.cpp
+[11.672s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/time_status__rosidl_typesupport_introspection_cpp.hpp
+[11.672s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/ins_group__type_support.cpp
+[11.672s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/ins_group__rosidl_typesupport_introspection_cpp.hpp
+[11.672s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/attitude_group__rosidl_typesupport_introspection_cpp.hpp
+[11.672s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/vpe_status__rosidl_typesupport_introspection_cpp.hpp
+[11.672s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/dop__type_support.cpp
+[11.672s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/vpe_status__type_support.cpp
+[11.672s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/ins_status__rosidl_typesupport_introspection_cpp.hpp
+[11.672s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/ins_status__type_support.cpp
+[11.672s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/time_group__rosidl_typesupport_introspection_cpp.hpp
+[11.672s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/attitude_group__type_support.cpp
+[11.673s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/lib/libvectornav_msgs__rosidl_typesupport_introspection_cpp.so
+[11.673s] -- Set runtime path of "/home/digitracknuc/imu_ws/install/vectornav_msgs/lib/libvectornav_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[11.673s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/lib/libvectornav_msgs__rosidl_typesupport_cpp.so
+[11.673s] -- Set runtime path of "/home/digitracknuc/imu_ws/install/vectornav_msgs/lib/libvectornav_msgs__rosidl_typesupport_cpp.so" to ""
+[11.673s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/share/vectornav_msgs/environment/pythonpath.sh
+[11.673s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/share/vectornav_msgs/environment/pythonpath.dsv
+[11.673s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/local/lib/python3.10/dist-packages/vectornav_msgs-3.0.0-py3.10.egg-info
+[11.673s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/local/lib/python3.10/dist-packages/vectornav_msgs-3.0.0-py3.10.egg-info/SOURCES.txt
+[11.673s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/local/lib/python3.10/dist-packages/vectornav_msgs-3.0.0-py3.10.egg-info/top_level.txt
+[11.674s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/local/lib/python3.10/dist-packages/vectornav_msgs-3.0.0-py3.10.egg-info/PKG-INFO
+[11.674s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/local/lib/python3.10/dist-packages/vectornav_msgs-3.0.0-py3.10.egg-info/dependency_links.txt
+[11.674s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/local/lib/python3.10/dist-packages/vectornav_msgs
+[11.674s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/local/lib/python3.10/dist-packages/vectornav_msgs/action
+[11.674s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/local/lib/python3.10/dist-packages/vectornav_msgs/action/_mag_cal_s.c
+[11.674s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/local/lib/python3.10/dist-packages/vectornav_msgs/action/__init__.py
+[11.674s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/local/lib/python3.10/dist-packages/vectornav_msgs/action/_mag_cal.py
+[11.674s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/local/lib/python3.10/dist-packages/vectornav_msgs/vectornav_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[11.674s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/local/lib/python3.10/dist-packages/vectornav_msgs/_vectornav_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[11.674s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/local/lib/python3.10/dist-packages/vectornav_msgs/libvectornav_msgs__rosidl_generator_py.so
+[11.674s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/local/lib/python3.10/dist-packages/vectornav_msgs/_vectornav_msgs_s.ep.rosidl_typesupport_c.c
+[11.675s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/local/lib/python3.10/dist-packages/vectornav_msgs/msg
+[11.675s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/local/lib/python3.10/dist-packages/vectornav_msgs/msg/_time_group.py
+[11.675s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/local/lib/python3.10/dist-packages/vectornav_msgs/msg/_attitude_group_s.c
+[11.675s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/local/lib/python3.10/dist-packages/vectornav_msgs/msg/_dop_s.c
+[11.675s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/local/lib/python3.10/dist-packages/vectornav_msgs/msg/_ins_group.py
+[11.675s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/local/lib/python3.10/dist-packages/vectornav_msgs/msg/_imu_group.py
+[11.675s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/local/lib/python3.10/dist-packages/vectornav_msgs/msg/_dop.py
+[11.675s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/local/lib/python3.10/dist-packages/vectornav_msgs/msg/_ins_status_s.c
+[11.675s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/local/lib/python3.10/dist-packages/vectornav_msgs/msg/_time_status_s.c
+[11.675s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/local/lib/python3.10/dist-packages/vectornav_msgs/msg/_common_group_s.c
+[11.675s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/local/lib/python3.10/dist-packages/vectornav_msgs/msg/_time_status.py
+[11.675s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/local/lib/python3.10/dist-packages/vectornav_msgs/msg/_time_utc_s.c
+[11.675s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/local/lib/python3.10/dist-packages/vectornav_msgs/msg/_time_utc.py
+[11.675s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/local/lib/python3.10/dist-packages/vectornav_msgs/msg/_common_group.py
+[11.676s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/local/lib/python3.10/dist-packages/vectornav_msgs/msg/_vpe_status.py
+[11.676s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/local/lib/python3.10/dist-packages/vectornav_msgs/msg/__init__.py
+[11.676s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/local/lib/python3.10/dist-packages/vectornav_msgs/msg/_ins_status.py
+[11.676s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/local/lib/python3.10/dist-packages/vectornav_msgs/msg/_gps_group_s.c
+[11.676s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/local/lib/python3.10/dist-packages/vectornav_msgs/msg/_imu_group_s.c
+[11.676s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/local/lib/python3.10/dist-packages/vectornav_msgs/msg/_vpe_status_s.c
+[11.676s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/local/lib/python3.10/dist-packages/vectornav_msgs/msg/_gps_group.py
+[11.676s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/local/lib/python3.10/dist-packages/vectornav_msgs/msg/_ins_group_s.c
+[11.676s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/local/lib/python3.10/dist-packages/vectornav_msgs/msg/_attitude_group.py
+[11.676s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/local/lib/python3.10/dist-packages/vectornav_msgs/msg/_time_group_s.c
+[11.676s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/local/lib/python3.10/dist-packages/vectornav_msgs/vectornav_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[11.676s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/local/lib/python3.10/dist-packages/vectornav_msgs/__init__.py
+[11.676s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/local/lib/python3.10/dist-packages/vectornav_msgs/vectornav_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[11.677s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/local/lib/python3.10/dist-packages/vectornav_msgs/_vectornav_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[11.729s] Listing '/home/digitracknuc/imu_ws/install/vectornav_msgs/local/lib/python3.10/dist-packages/vectornav_msgs'...
+[11.729s] Compiling '/home/digitracknuc/imu_ws/install/vectornav_msgs/local/lib/python3.10/dist-packages/vectornav_msgs/__init__.py'...
+[11.729s] Listing '/home/digitracknuc/imu_ws/install/vectornav_msgs/local/lib/python3.10/dist-packages/vectornav_msgs/action'...
+[11.729s] Compiling '/home/digitracknuc/imu_ws/install/vectornav_msgs/local/lib/python3.10/dist-packages/vectornav_msgs/action/__init__.py'...
+[11.730s] Compiling '/home/digitracknuc/imu_ws/install/vectornav_msgs/local/lib/python3.10/dist-packages/vectornav_msgs/action/_mag_cal.py'...
+[11.730s] Listing '/home/digitracknuc/imu_ws/install/vectornav_msgs/local/lib/python3.10/dist-packages/vectornav_msgs/msg'...
+[11.730s] Compiling '/home/digitracknuc/imu_ws/install/vectornav_msgs/local/lib/python3.10/dist-packages/vectornav_msgs/msg/__init__.py'...
+[11.730s] Compiling '/home/digitracknuc/imu_ws/install/vectornav_msgs/local/lib/python3.10/dist-packages/vectornav_msgs/msg/_attitude_group.py'...
+[11.730s] Compiling '/home/digitracknuc/imu_ws/install/vectornav_msgs/local/lib/python3.10/dist-packages/vectornav_msgs/msg/_common_group.py'...
+[11.730s] Compiling '/home/digitracknuc/imu_ws/install/vectornav_msgs/local/lib/python3.10/dist-packages/vectornav_msgs/msg/_dop.py'...
+[11.730s] Compiling '/home/digitracknuc/imu_ws/install/vectornav_msgs/local/lib/python3.10/dist-packages/vectornav_msgs/msg/_gps_group.py'...
+[11.730s] Compiling '/home/digitracknuc/imu_ws/install/vectornav_msgs/local/lib/python3.10/dist-packages/vectornav_msgs/msg/_imu_group.py'...
+[11.730s] Compiling '/home/digitracknuc/imu_ws/install/vectornav_msgs/local/lib/python3.10/dist-packages/vectornav_msgs/msg/_ins_group.py'...
+[11.730s] Compiling '/home/digitracknuc/imu_ws/install/vectornav_msgs/local/lib/python3.10/dist-packages/vectornav_msgs/msg/_ins_status.py'...
+[11.730s] Compiling '/home/digitracknuc/imu_ws/install/vectornav_msgs/local/lib/python3.10/dist-packages/vectornav_msgs/msg/_time_group.py'...
+[11.730s] Compiling '/home/digitracknuc/imu_ws/install/vectornav_msgs/local/lib/python3.10/dist-packages/vectornav_msgs/msg/_time_status.py'...
+[11.730s] Compiling '/home/digitracknuc/imu_ws/install/vectornav_msgs/local/lib/python3.10/dist-packages/vectornav_msgs/msg/_time_utc.py'...
+[11.730s] Compiling '/home/digitracknuc/imu_ws/install/vectornav_msgs/local/lib/python3.10/dist-packages/vectornav_msgs/msg/_vpe_status.py'...
+[11.733s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/local/lib/python3.10/dist-packages/vectornav_msgs/vectornav_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[11.733s] -- Set runtime path of "/home/digitracknuc/imu_ws/install/vectornav_msgs/local/lib/python3.10/dist-packages/vectornav_msgs/vectornav_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[11.733s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/local/lib/python3.10/dist-packages/vectornav_msgs/vectornav_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[11.734s] -- Set runtime path of "/home/digitracknuc/imu_ws/install/vectornav_msgs/local/lib/python3.10/dist-packages/vectornav_msgs/vectornav_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[11.734s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/local/lib/python3.10/dist-packages/vectornav_msgs/vectornav_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[11.734s] -- Set runtime path of "/home/digitracknuc/imu_ws/install/vectornav_msgs/local/lib/python3.10/dist-packages/vectornav_msgs/vectornav_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[11.734s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/lib/libvectornav_msgs__rosidl_generator_py.so
+[11.735s] -- Set runtime path of "/home/digitracknuc/imu_ws/install/vectornav_msgs/lib/libvectornav_msgs__rosidl_generator_py.so" to ""
+[11.735s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/share/vectornav_msgs/msg/AttitudeGroup.idl
+[11.735s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/share/vectornav_msgs/msg/CommonGroup.idl
+[11.735s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/share/vectornav_msgs/msg/DOP.idl
+[11.735s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/share/vectornav_msgs/msg/GpsGroup.idl
+[11.735s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/share/vectornav_msgs/msg/ImuGroup.idl
+[11.735s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/share/vectornav_msgs/msg/InsGroup.idl
+[11.735s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/share/vectornav_msgs/msg/InsStatus.idl
+[11.735s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/share/vectornav_msgs/msg/TimeGroup.idl
+[11.735s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/share/vectornav_msgs/msg/TimeStatus.idl
+[11.735s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/share/vectornav_msgs/msg/TimeUTC.idl
+[11.735s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/share/vectornav_msgs/msg/VpeStatus.idl
+[11.736s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/share/vectornav_msgs/action/MagCal.idl
+[11.736s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/share/vectornav_msgs/msg/AttitudeGroup.msg
+[11.736s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/share/vectornav_msgs/msg/CommonGroup.msg
+[11.736s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/share/vectornav_msgs/msg/DOP.msg
+[11.736s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/share/vectornav_msgs/msg/GpsGroup.msg
+[11.736s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/share/vectornav_msgs/msg/ImuGroup.msg
+[11.736s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/share/vectornav_msgs/msg/InsGroup.msg
+[11.736s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/share/vectornav_msgs/msg/InsStatus.msg
+[11.736s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/share/vectornav_msgs/msg/TimeGroup.msg
+[11.736s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/share/vectornav_msgs/msg/TimeStatus.msg
+[11.736s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/share/vectornav_msgs/msg/TimeUTC.msg
+[11.736s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/share/vectornav_msgs/msg/VpeStatus.msg
+[11.737s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/share/vectornav_msgs/action/MagCal.action
+[11.737s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/share/ament_index/resource_index/package_run_dependencies/vectornav_msgs
+[11.737s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/share/ament_index/resource_index/parent_prefix_path/vectornav_msgs
+[11.737s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/share/vectornav_msgs/environment/ament_prefix_path.sh
+[11.737s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/share/vectornav_msgs/environment/ament_prefix_path.dsv
+[11.737s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/share/vectornav_msgs/environment/path.sh
+[11.737s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/share/vectornav_msgs/environment/path.dsv
+[11.737s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/share/vectornav_msgs/local_setup.bash
+[11.737s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/share/vectornav_msgs/local_setup.sh
+[11.737s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/share/vectornav_msgs/local_setup.zsh
+[11.738s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/share/vectornav_msgs/local_setup.dsv
+[11.738s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/share/vectornav_msgs/package.dsv
+[11.738s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/share/ament_index/resource_index/packages/vectornav_msgs
+[11.738s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/share/vectornav_msgs/cmake/export_vectornav_msgs__rosidl_generator_cExport.cmake
+[11.738s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/share/vectornav_msgs/cmake/export_vectornav_msgs__rosidl_generator_cExport-noconfig.cmake
+[11.738s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/share/vectornav_msgs/cmake/export_vectornav_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[11.738s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/share/vectornav_msgs/cmake/export_vectornav_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[11.738s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/share/vectornav_msgs/cmake/export_vectornav_msgs__rosidl_generator_cppExport.cmake
+[11.738s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/share/vectornav_msgs/cmake/export_vectornav_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[11.738s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/share/vectornav_msgs/cmake/export_vectornav_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[11.739s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/share/vectornav_msgs/cmake/vectornav_msgs__rosidl_typesupport_introspection_cExport.cmake
+[11.739s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/share/vectornav_msgs/cmake/vectornav_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[11.739s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/share/vectornav_msgs/cmake/vectornav_msgs__rosidl_typesupport_cExport.cmake
+[11.739s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/share/vectornav_msgs/cmake/vectornav_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[11.739s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/share/vectornav_msgs/cmake/vectornav_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[11.739s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/share/vectornav_msgs/cmake/vectornav_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[11.739s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/share/vectornav_msgs/cmake/vectornav_msgs__rosidl_typesupport_cppExport.cmake
+[11.739s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/share/vectornav_msgs/cmake/vectornav_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[11.739s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/share/vectornav_msgs/cmake/export_vectornav_msgs__rosidl_generator_pyExport.cmake
+[11.740s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/share/vectornav_msgs/cmake/export_vectornav_msgs__rosidl_generator_pyExport-noconfig.cmake
+[11.740s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/share/vectornav_msgs/cmake/rosidl_cmake-extras.cmake
+[11.740s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/share/vectornav_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[11.740s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/share/vectornav_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[11.740s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/share/vectornav_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[11.740s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/share/vectornav_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[11.740s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/share/vectornav_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[11.740s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/share/vectornav_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[11.740s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/share/vectornav_msgs/cmake/vectornav_msgsConfig.cmake
+[11.740s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/share/vectornav_msgs/cmake/vectornav_msgsConfig-version.cmake
+[11.740s] -- Installing: /home/digitracknuc/imu_ws/install/vectornav_msgs/share/vectornav_msgs/package.xml
+[11.743s] Invoked command in '/home/digitracknuc/imu_ws/build/vectornav_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/digitracknuc/imu_ws/build/vectornav_msgs

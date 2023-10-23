@@ -1,0 +1,546 @@
+[0.009s] Invoking command in '/home/digitracknuc/lidar_ws/build/rplidar_ros': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/digitracknuc/lidar_ws/src/rplidar_ros -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/digitracknuc/lidar_ws/install/rplidar_ros
+[0.081s] -- The C compiler identification is GNU 11.4.0
+[0.125s] -- The CXX compiler identification is GNU 11.4.0
+[0.130s] -- Detecting C compiler ABI info
+[0.224s] -- Detecting C compiler ABI info - done
+[0.231s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.231s] -- Detecting C compile features
+[0.231s] -- Detecting C compile features - done
+[0.234s] -- Detecting CXX compiler ABI info
+[0.292s] -- Detecting CXX compiler ABI info - done
+[0.299s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.299s] -- Detecting CXX compile features
+[0.299s] -- Detecting CXX compile features - done
+[0.301s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.431s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.496s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.518s] -- Found rclcpp: 16.0.5 (/opt/ros/humble/share/rclcpp/cmake)
+[0.553s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.557s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.563s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.574s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.589s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.647s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.649s] -- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.717s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.746s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.789s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.795s] -- Looking for pthread.h
+[0.853s] -- Looking for pthread.h - found
+[0.853s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.910s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.911s] -- Found Threads: TRUE  
+[1.063s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.182s] -- Found std_srvs: 4.2.3 (/opt/ros/humble/share/std_srvs/cmake)
+[1.252s] -- Configuring done
+[1.266s] -- Generating done
+[1.267s] -- Build files have been written to: /home/digitracknuc/lidar_ws/build/rplidar_ros
+[1.274s] Invoked command in '/home/digitracknuc/lidar_ws/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/digitracknuc/lidar_ws/src/rplidar_ros -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/digitracknuc/lidar_ws/install/rplidar_ros
+[1.276s] Invoking command in '/home/digitracknuc/lidar_ws/build/rplidar_ros': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/digitracknuc/lidar_ws/build/rplidar_ros -- -j12 -l12
+[1.314s] [ 11%] [32mBuilding CXX object CMakeFiles/rplidar_node.dir/sdk/src/arch/linux/net_serial.cpp.o[0m
+[1.314s] [ 11%] [32mBuilding CXX object CMakeFiles/rplidar_client.dir/src/rplidar_client.cpp.o[0m
+[1.314s] [ 11%] [32mBuilding CXX object CMakeFiles/rplidar_composition.dir/src/rplidar_node.cpp.o[0m
+[1.314s] [ 15%] [32mBuilding CXX object CMakeFiles/rplidar_node.dir/sdk/src/arch/linux/net_socket.cpp.o[0m
+[1.314s] [ 19%] [32mBuilding CXX object CMakeFiles/rplidar_composition.dir/sdk/src/arch/linux/net_serial.cpp.o[0m
+[1.314s] [ 23%] [32mBuilding CXX object CMakeFiles/rplidar_composition.dir/sdk/src/arch/linux/net_socket.cpp.o[0m
+[1.315s] [ 34%] [32mBuilding CXX object CMakeFiles/rplidar_node.dir/src/rplidar_node.cpp.o[0m
+[1.315s] [ 34%] [32mBuilding CXX object CMakeFiles/rplidar_node.dir/sdk/src/arch/linux/timer.cpp.o[0m
+[1.315s] [ 34%] [32mBuilding CXX object CMakeFiles/rplidar_composition.dir/sdk/src/arch/linux/timer.cpp.o[0m
+[1.315s] [ 42%] [32mBuilding CXX object CMakeFiles/rplidar_node.dir/sdk/src/rplidar_driver.cpp.o[0m
+[1.315s] [ 46%] [32mBuilding CXX object CMakeFiles/rplidar_composition.dir/sdk/src/hal/thread.cpp.o[0m
+[1.315s] [ 46%] [32mBuilding CXX object CMakeFiles/rplidar_node.dir/sdk/src/hal/thread.cpp.o[0m
+[1.796s] In file included from [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/./sdk/include/rplidar_protocol.h:36[m[K,
+[1.796s]                  from [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/./sdk/include/rplidar.h:39[m[K,
+[1.796s]                  from [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/./sdk/src/sdkcommon.h:49[m[K,
+[1.796s]                  from [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/sdk/src/hal/thread.cpp:35[m[K:
+[1.796s] [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/./sdk/include/sl_lidar_protocol.h:58:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[1.797s]    58 |     sl_u8 data[[01;35m[K0[m[K];
+[1.797s]       |                [01;35m[K^[m[K
+[1.797s] In file included from [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/./sdk/include/rplidar_protocol.h:36[m[K,
+[1.797s]                  from [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/./sdk/include/rplidar.h:39[m[K,
+[1.797s]                  from [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/./sdk/src/sdkcommon.h:49[m[K,
+[1.797s]                  from [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/sdk/src/hal/thread.cpp:35[m[K:
+[1.797s] [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/./sdk/include/sl_lidar_protocol.h:58:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[1.797s]    58 |     sl_u8 data[[01;35m[K0[m[K];
+[1.797s]       |                [01;35m[K^[m[K
+[1.798s] In file included from [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/./sdk/include/rplidar_cmd.h:36[m[K,
+[1.798s]                  from [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/./sdk/include/rplidar.h:40[m[K,
+[1.798s]                  from [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/./sdk/src/sdkcommon.h:49[m[K,
+[1.798s]                  from [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/sdk/src/hal/thread.cpp:35[m[K:
+[1.798s] [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/./sdk/include/sl_lidar_cmd.h:312:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[1.798s]   312 |     sl_u8  payload[[01;35m[K0[m[K];
+[1.798s]       |                    [01;35m[K^[m[K
+[1.798s] In file included from [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/./sdk/include/rplidar_cmd.h:36[m[K,
+[1.798s]                  from [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/./sdk/include/rplidar.h:40[m[K,
+[1.798s]                  from [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/./sdk/src/sdkcommon.h:49[m[K,
+[1.799s]                  from [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/sdk/src/hal/thread.cpp:35[m[K:
+[1.799s] [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/./sdk/include/sl_lidar_cmd.h:312:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[1.799s]   312 |     sl_u8  payload[[01;35m[K0[m[K];
+[1.799s]       |                    [01;35m[K^[m[K
+[1.805s] In file included from [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/./sdk/include/rplidar_protocol.h:36[m[K,
+[1.805s]                  from [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/./sdk/include/rplidar.h:39[m[K,
+[1.805s]                  from [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/./sdk/src/sdkcommon.h:49[m[K,
+[1.805s]                  from [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/sdk/src/arch/linux/net_socket.cpp:10[m[K:
+[1.805s] [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/./sdk/include/sl_lidar_protocol.h:58:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[1.805s]    58 |     sl_u8 data[[01;35m[K0[m[K];
+[1.805s]       |                [01;35m[K^[m[K
+[1.806s] In file included from [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/./sdk/include/rplidar_cmd.h:36[m[K,
+[1.806s]                  from [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/./sdk/include/rplidar.h:40[m[K,
+[1.806s]                  from [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/./sdk/src/sdkcommon.h:49[m[K,
+[1.806s]                  from [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/sdk/src/arch/linux/net_socket.cpp:10[m[K:
+[1.806s] [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/./sdk/include/sl_lidar_cmd.h:312:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[1.806s]   312 |     sl_u8  payload[[01;35m[K0[m[K];
+[1.806s]       |                    [01;35m[K^[m[K
+[1.806s] In file included from [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/./sdk/include/rplidar_protocol.h:36[m[K,
+[1.807s]                  from [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/./sdk/include/rplidar.h:39[m[K,
+[1.807s]                  from [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/./sdk/src/sdkcommon.h:49[m[K,
+[1.807s]                  from [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/sdk/src/arch/linux/net_socket.cpp:10[m[K:
+[1.807s] [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/./sdk/include/sl_lidar_protocol.h:58:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[1.807s]    58 |     sl_u8 data[[01;35m[K0[m[K];
+[1.807s]       |                [01;35m[K^[m[K
+[1.807s] In file included from [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/./sdk/include/rplidar_cmd.h:36[m[K,
+[1.807s]                  from [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/./sdk/include/rplidar.h:40[m[K,
+[1.807s]                  from [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/./sdk/src/sdkcommon.h:49[m[K,
+[1.808s]                  from [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/sdk/src/arch/linux/net_socket.cpp:10[m[K:
+[1.808s] [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/./sdk/include/sl_lidar_cmd.h:312:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[1.808s]   312 |     sl_u8  payload[[01;35m[K0[m[K];
+[1.808s]       |                    [01;35m[K^[m[K
+[1.814s] In file included from [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/./sdk/include/rplidar_protocol.h:36[m[K,
+[1.814s]                  from [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/./sdk/include/rplidar.h:39[m[K,
+[1.814s]                  from [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/sdk/src/sdkcommon.h:49[m[K,
+[1.814s]                  from [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/sdk/src/rplidar_driver.cpp:33[m[K:
+[1.814s] [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/./sdk/include/sl_lidar_protocol.h:58:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[1.814s]    58 |     sl_u8 data[[01;35m[K0[m[K];
+[1.815s]       |                [01;35m[K^[m[K
+[1.815s] In file included from [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/./sdk/include/rplidar_cmd.h:36[m[K,
+[1.815s]                  from [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/./sdk/include/rplidar.h:40[m[K,
+[1.815s]                  from [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/sdk/src/sdkcommon.h:49[m[K,
+[1.815s]                  from [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/sdk/src/rplidar_driver.cpp:33[m[K:
+[1.815s] [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/./sdk/include/sl_lidar_cmd.h:312:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[1.815s]   312 |     sl_u8  payload[[01;35m[K0[m[K];
+[1.815s]       |                    [01;35m[K^[m[K
+[1.857s] In file included from [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/sdk/src/hal/thread.cpp:43[m[K:
+[1.857s] [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/./sdk/src/arch/linux/thread.hpp:[m[K In static member function ‘[01m[Kstatic rp::hal::Thread rp::hal::Thread::create(thread_proc_t, void*)[m[K’:
+[1.857s] [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/./sdk/src/arch/linux/thread.hpp:48:57:[m[K [01;35m[Kwarning: [m[Kcast between incompatible function types from ‘[01m[Kthread_proc_t[m[K’ {aka ‘[01m[Klong unsigned int (*)(void*)[m[K’} to ‘[01m[Kvoid* (*)(void*)[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcast-function-type-Wcast-function-type]8;;[m[K]
+[1.857s]    48 |     pthread_create((pthread_t *)&newborn._handle, NULL, [01;35m[K(void * (*)(void *))proc[m[K, data);
+[1.857s]       |                                                         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.857s] In file included from [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/sdk/src/hal/thread.cpp:43[m[K:
+[1.857s] [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/./sdk/src/arch/linux/thread.hpp:[m[K In static member function ‘[01m[Kstatic rp::hal::Thread rp::hal::Thread::create(thread_proc_t, void*)[m[K’:
+[1.858s] [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/./sdk/src/arch/linux/thread.hpp:48:57:[m[K [01;35m[Kwarning: [m[Kcast between incompatible function types from ‘[01m[Kthread_proc_t[m[K’ {aka ‘[01m[Klong unsigned int (*)(void*)[m[K’} to ‘[01m[Kvoid* (*)(void*)[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcast-function-type-Wcast-function-type]8;;[m[K]
+[1.858s]    48 |     pthread_create((pthread_t *)&newborn._handle, NULL, [01;35m[K(void * (*)(void *))proc[m[K, data);
+[1.858s]       |                                                         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.858s] [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/./sdk/src/arch/linux/thread.hpp:[m[K In member function ‘[01m[Ku_result rp::hal::Thread::join(long unsigned int)[m[K’:
+[1.858s] [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/./sdk/src/arch/linux/thread.hpp:129:37:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.858s]   129 | u_result Thread::join([01;35m[Kunsigned long timeout[m[K)
+[1.858s]       |                       [01;35m[K~~~~~~~~~~~~~~^~~~~~~[m[K
+[1.858s] [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/./sdk/src/arch/linux/thread.hpp:[m[K In member function ‘[01m[Ku_result rp::hal::Thread::join(long unsigned int)[m[K’:
+[1.858s] [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/./sdk/src/arch/linux/thread.hpp:129:37:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.859s]   129 | u_result Thread::join([01;35m[Kunsigned long timeout[m[K)
+[1.859s]       |                       [01;35m[K~~~~~~~~~~~~~~^~~~~~~[m[K
+[1.872s] [ 50%] [32mBuilding CXX object CMakeFiles/rplidar_composition.dir/sdk/src/rplidar_driver.cpp.o[0m
+[1.876s] [ 53%] [32mBuilding CXX object CMakeFiles/rplidar_composition.dir/sdk/src/sl_crc.cpp.o[0m
+[1.894s] In file included from [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/./sdk/include/sl_lidar_cmd.h:36[m[K,
+[1.894s]                  from [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/./sdk/include/sl_crc.h:36[m[K,
+[1.894s]                  from [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/sdk/src/sl_crc.cpp:33[m[K:
+[1.894s] [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/./sdk/include/sl_lidar_protocol.h:58:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[1.894s]    58 |     sl_u8 data[[01;35m[K0[m[K];
+[1.894s]       |                [01;35m[K^[m[K
+[1.894s] In file included from [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/./sdk/include/sl_crc.h:36[m[K,
+[1.895s]                  from [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/sdk/src/sl_crc.cpp:33[m[K:
+[1.895s] [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/./sdk/include/sl_lidar_cmd.h:312:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[1.895s]   312 |     sl_u8  payload[[01;35m[K0[m[K];
+[1.895s]       |                    [01;35m[K^[m[K
+[1.918s] [ 57%] [32mBuilding CXX object CMakeFiles/rplidar_composition.dir/sdk/src/sl_lidar_driver.cpp.o[0m
+[1.962s] [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/sdk/src/arch/linux/net_serial.cpp:[m[K In member function ‘[01m[Kbool rp::arch::net::raw_serial::open(const char*, uint32_t, uint32_t)[m[K’:
+[1.962s] [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/sdk/src/arch/linux/net_serial.cpp:97:74:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kflags[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.963s]    97 | bool raw_serial::open(const char * portname, uint32_t baudrate, [01;35m[Kuint32_t flags[m[K)
+[1.963s]       |                                                                 [01;35m[K~~~~~~~~~^~~~~[m[K
+[1.963s] [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/sdk/src/arch/linux/net_serial.cpp:[m[K In member function ‘[01m[Kbool rp::arch::net::raw_serial::open(const char*, uint32_t, uint32_t)[m[K’:
+[1.963s] [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/sdk/src/arch/linux/net_serial.cpp:97:74:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kflags[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.963s]    97 | bool raw_serial::open(const char * portname, uint32_t baudrate, [01;35m[Kuint32_t flags[m[K)
+[1.963s]       |                                                                 [01;35m[K~~~~~~~~~^~~~~[m[K
+[1.963s] [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/sdk/src/arch/linux/net_serial.cpp:[m[K In member function ‘[01m[Kvirtual void rp::arch::net::raw_serial::flush(_u32)[m[K’:
+[1.964s] [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/sdk/src/arch/linux/net_serial.cpp:281:30:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kflags[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.964s]   281 | void raw_serial::flush( [01;35m[K_u32 flags[m[K)
+[1.964s]       |                         [01;35m[K~~~~~^~~~~[m[K
+[1.964s] [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/sdk/src/arch/linux/net_serial.cpp:[m[K In member function ‘[01m[Kvirtual int rp::arch::net::raw_serial::waitforsent(_u32, size_t*)[m[K’:
+[1.964s] [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/sdk/src/arch/linux/net_serial.cpp:286:34:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.964s]   286 | int raw_serial::waitforsent([01;35m[K_u32 timeout[m[K, size_t * returned_size)
+[1.964s]       |                             [01;35m[K~~~~~^~~~~~~[m[K
+[1.964s] [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/sdk/src/arch/linux/net_serial.cpp:[m[K In member function ‘[01m[Kvirtual int rp::arch::net::raw_serial::waitforrecv(_u32, size_t*)[m[K’:
+[1.964s] [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/sdk/src/arch/linux/net_serial.cpp:292:34:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.964s]   292 | int raw_serial::waitforrecv([01;35m[K_u32 timeout[m[K, size_t * returned_size)
+[1.964s]       |                             [01;35m[K~~~~~^~~~~~~[m[K
+[1.965s] [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/sdk/src/arch/linux/net_serial.cpp:[m[K In member function ‘[01m[Kvirtual void rp::arch::net::raw_serial::flush(_u32)[m[K’:
+[1.965s] [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/sdk/src/arch/linux/net_serial.cpp:281:30:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kflags[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.965s]   281 | void raw_serial::flush( [01;35m[K_u32 flags[m[K)
+[1.965s]       |                         [01;35m[K~~~~~^~~~~[m[K
+[1.965s] [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/sdk/src/arch/linux/net_serial.cpp:[m[K In member function ‘[01m[Kvirtual int rp::arch::net::raw_serial::waitforsent(_u32, size_t*)[m[K’:
+[1.965s] [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/sdk/src/arch/linux/net_serial.cpp:286:34:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.965s]   286 | int raw_serial::waitforsent([01;35m[K_u32 timeout[m[K, size_t * returned_size)
+[1.965s]       |                             [01;35m[K~~~~~^~~~~~~[m[K
+[1.965s] [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/sdk/src/arch/linux/net_serial.cpp:[m[K In member function ‘[01m[Kvirtual int rp::arch::net::raw_serial::waitforrecv(_u32, size_t*)[m[K’:
+[1.966s] [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/sdk/src/arch/linux/net_serial.cpp:292:34:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.966s]   292 | int raw_serial::waitforrecv([01;35m[K_u32 timeout[m[K, size_t * returned_size)
+[1.966s]       |                             [01;35m[K~~~~~^~~~~~~[m[K
+[1.975s] [ 61%] [32mBuilding CXX object CMakeFiles/rplidar_composition.dir/sdk/src/sl_serial_channel.cpp.o[0m
+[1.976s] [ 65%] [32mBuilding CXX object CMakeFiles/rplidar_node.dir/sdk/src/sl_crc.cpp.o[0m
+[1.993s] In file included from [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/./sdk/include/sl_lidar_cmd.h:36[m[K,
+[1.994s]                  from [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/./sdk/include/sl_crc.h:36[m[K,
+[1.994s]                  from [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/sdk/src/sl_crc.cpp:33[m[K:
+[1.994s] [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/./sdk/include/sl_lidar_protocol.h:58:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[1.994s]    58 |     sl_u8 data[[01;35m[K0[m[K];
+[1.994s]       |                [01;35m[K^[m[K
+[1.994s] In file included from [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/./sdk/include/sl_crc.h:36[m[K,
+[1.994s]                  from [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/sdk/src/sl_crc.cpp:33[m[K:
+[1.994s] [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/./sdk/include/sl_lidar_cmd.h:312:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[1.994s]   312 |     sl_u8  payload[[01;35m[K0[m[K];
+[1.995s]       |                    [01;35m[K^[m[K
+[2.001s] [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/sdk/src/rplidar_driver.cpp:[m[K In member function ‘[01m[Ku_result rp::standalone::rplidar::RPlidarDriver::connect(const char*, _u32, _u32)[m[K’:
+[2.001s] [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/sdk/src/rplidar_driver.cpp:67:77:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kflag[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.001s]    67 |     u_result RPlidarDriver::connect(const char *path, _u32 portOrBaud, [01;35m[K_u32 flag[m[K)
+[2.001s]       |                                                                        [01;35m[K~~~~~^~~~[m[K
+[2.001s] [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/sdk/src/rplidar_driver.cpp:[m[K In member function ‘[01m[Ku_result rp::standalone::rplidar::RPlidarDriver::reset(_u32)[m[K’:
+[2.001s] [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/sdk/src/rplidar_driver.cpp:101:40:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.002s]   101 |     u_result RPlidarDriver::reset([01;35m[K_u32 timeout[m[K)
+[2.002s]       |                                   [01;35m[K~~~~~^~~~~~~[m[K
+[2.003s] [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/sdk/src/rplidar_driver.cpp:[m[K In member function ‘[01m[Ku_result rp::standalone::rplidar::RPlidarDriver::getScanDataWithInterval(rplidar_response_measurement_node_t*, size_t&)[m[K’:
+[2.003s] [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/sdk/src/rplidar_driver.cpp:180:91:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Knodebuffer[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.003s]   180 |     u_result RPlidarDriver::getScanDataWithInterval([01;35m[Krplidar_response_measurement_node_t * nodebuffer[m[K, size_t & count)
+[2.003s]       |                                                     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[2.003s] [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/sdk/src/rplidar_driver.cpp:180:112:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcount[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.003s]   180 |     u_result RPlidarDriver::getScanDataWithInterval(rplidar_response_measurement_node_t * nodebuffer, [01;35m[Ksize_t & count[m[K)
+[2.003s]       |                                                                                                       [01;35m[K~~~~~~~~~^~~~~[m[K
+[2.018s] [ 69%] [32mBuilding CXX object CMakeFiles/rplidar_node.dir/sdk/src/sl_lidar_driver.cpp.o[0m
+[2.093s] [ 73%] [32mBuilding CXX object CMakeFiles/rplidar_composition.dir/sdk/src/sl_tcp_channel.cpp.o[0m
+[2.101s] [ 76%] [32mBuilding CXX object CMakeFiles/rplidar_node.dir/sdk/src/sl_serial_channel.cpp.o[0m
+[2.111s] [ 80%] [32mBuilding CXX object CMakeFiles/rplidar_node.dir/sdk/src/sl_tcp_channel.cpp.o[0m
+[2.120s] [ 84%] [32mBuilding CXX object CMakeFiles/rplidar_composition.dir/sdk/src/sl_udp_channel.cpp.o[0m
+[2.142s] [ 88%] [32mBuilding CXX object CMakeFiles/rplidar_node.dir/sdk/src/sl_udp_channel.cpp.o[0m
+[2.286s] In file included from [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/./sdk/include/sl_lidar_cmd.h:36[m[K,
+[2.286s]                  from [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/./sdk/include/sl_lidar_driver.h:54[m[K,
+[2.287s]                  from [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/sdk/src/sl_serial_channel.cpp:33[m[K:
+[2.287s] [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/./sdk/include/sl_lidar_protocol.h:58:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[2.287s]    58 |     sl_u8 data[[01;35m[K0[m[K];
+[2.287s]       |                [01;35m[K^[m[K
+[2.287s] In file included from [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/./sdk/include/sl_lidar_driver.h:54[m[K,
+[2.287s]                  from [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/sdk/src/sl_serial_channel.cpp:33[m[K:
+[2.287s] [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/./sdk/include/sl_lidar_cmd.h:312:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[2.287s]   312 |     sl_u8  payload[[01;35m[K0[m[K];
+[2.287s]       |                    [01;35m[K^[m[K
+[2.354s] In file included from [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/./sdk/include/rplidar_protocol.h:36[m[K,
+[2.354s]                  from [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/./sdk/include/rplidar.h:39[m[K,
+[2.355s]                  from [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/sdk/src/sdkcommon.h:49[m[K,
+[2.355s]                  from [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/sdk/src/rplidar_driver.cpp:33[m[K:
+[2.355s] [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/./sdk/include/sl_lidar_protocol.h:58:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[2.355s]    58 |     sl_u8 data[[01;35m[K0[m[K];
+[2.355s]       |                [01;35m[K^[m[K
+[2.355s] In file included from [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/./sdk/include/rplidar_cmd.h:36[m[K,
+[2.355s]                  from [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/./sdk/include/rplidar.h:40[m[K,
+[2.355s]                  from [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/sdk/src/sdkcommon.h:49[m[K,
+[2.355s]                  from [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/sdk/src/rplidar_driver.cpp:33[m[K:
+[2.356s] [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/./sdk/include/sl_lidar_cmd.h:312:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[2.356s]   312 |     sl_u8  payload[[01;35m[K0[m[K];
+[2.356s]       |                    [01;35m[K^[m[K
+[2.405s] In file included from [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/./sdk/include/rplidar_protocol.h:36[m[K,
+[2.405s]                  from [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/./sdk/include/rplidar.h:39[m[K,
+[2.405s]                  from [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/sdk/src/sdkcommon.h:49[m[K,
+[2.405s]                  from [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:33[m[K:
+[2.405s] [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/./sdk/include/sl_lidar_protocol.h:58:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[2.405s]    58 |     sl_u8 data[[01;35m[K0[m[K];
+[2.405s]       |                [01;35m[K^[m[K
+[2.406s] In file included from [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/./sdk/include/rplidar_cmd.h:36[m[K,
+[2.406s]                  from [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/./sdk/include/rplidar.h:40[m[K,
+[2.406s]                  from [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/sdk/src/sdkcommon.h:49[m[K,
+[2.406s]                  from [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:33[m[K:
+[2.406s] [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/./sdk/include/sl_lidar_cmd.h:312:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[2.406s]   312 |     sl_u8  payload[[01;35m[K0[m[K];
+[2.406s]       |                    [01;35m[K^[m[K
+[2.412s] In file included from [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/./sdk/include/sl_lidar_cmd.h:36[m[K,
+[2.412s]                  from [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/./sdk/include/sl_lidar_driver.h:54[m[K,
+[2.412s]                  from [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/sdk/src/sl_tcp_channel.cpp:33[m[K:
+[2.412s] [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/./sdk/include/sl_lidar_protocol.h:58:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[2.412s]    58 |     sl_u8 data[[01;35m[K0[m[K];
+[2.412s]       |                [01;35m[K^[m[K
+[2.413s] In file included from [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/./sdk/include/sl_lidar_driver.h:54[m[K,
+[2.413s]                  from [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/sdk/src/sl_tcp_channel.cpp:33[m[K:
+[2.413s] [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/./sdk/include/sl_lidar_cmd.h:312:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[2.413s]   312 |     sl_u8  payload[[01;35m[K0[m[K];
+[2.413s]       |                    [01;35m[K^[m[K
+[2.415s] In file included from [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/./sdk/include/sl_lidar_cmd.h:36[m[K,
+[2.415s]                  from [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/./sdk/include/sl_lidar_driver.h:54[m[K,
+[2.416s]                  from [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/sdk/src/sl_serial_channel.cpp:33[m[K:
+[2.416s] [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/./sdk/include/sl_lidar_protocol.h:58:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[2.416s]    58 |     sl_u8 data[[01;35m[K0[m[K];
+[2.416s]       |                [01;35m[K^[m[K
+[2.416s] In file included from [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/./sdk/include/sl_lidar_driver.h:54[m[K,
+[2.416s]                  from [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/sdk/src/sl_serial_channel.cpp:33[m[K:
+[2.416s] [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/./sdk/include/sl_lidar_cmd.h:312:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[2.416s]   312 |     sl_u8  payload[[01;35m[K0[m[K];
+[2.416s]       |                    [01;35m[K^[m[K
+[2.418s] [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/sdk/src/sl_tcp_channel.cpp:[m[K In member function ‘[01m[Kvoid sl::TcpChannel::setStatus(_u32)[m[K’:
+[2.418s] [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/sdk/src/sl_tcp_channel.cpp:94:29:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kflag[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.418s]    94 |         void setStatus([01;35m[K_u32 flag[m[K){}
+[2.418s]       |                        [01;35m[K~~~~~^~~~[m[K
+[2.430s] In file included from [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/./sdk/include/sl_lidar_cmd.h:36[m[K,
+[2.430s]                  from [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/./sdk/include/sl_lidar_driver.h:54[m[K,
+[2.430s]                  from [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/sdk/src/sl_tcp_channel.cpp:33[m[K:
+[2.430s] [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/./sdk/include/sl_lidar_protocol.h:58:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[2.430s]    58 |     sl_u8 data[[01;35m[K0[m[K];
+[2.430s]       |                [01;35m[K^[m[K
+[2.430s] In file included from [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/./sdk/include/sl_lidar_driver.h:54[m[K,
+[2.430s]                  from [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/sdk/src/sl_tcp_channel.cpp:33[m[K:
+[2.431s] [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/./sdk/include/sl_lidar_cmd.h:312:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[2.431s]   312 |     sl_u8  payload[[01;35m[K0[m[K];
+[2.431s]       |                    [01;35m[K^[m[K
+[2.434s] In file included from [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/./sdk/include/sl_lidar_cmd.h:36[m[K,
+[2.435s]                  from [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/./sdk/include/sl_lidar_driver.h:54[m[K,
+[2.435s]                  from [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/sdk/src/sl_udp_channel.cpp:33[m[K:
+[2.435s] [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/./sdk/include/sl_lidar_protocol.h:58:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[2.435s]    58 |     sl_u8 data[[01;35m[K0[m[K];
+[2.435s]       |                [01;35m[K^[m[K
+[2.435s] In file included from [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/./sdk/include/sl_lidar_driver.h:54[m[K,
+[2.435s]                  from [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/sdk/src/sl_udp_channel.cpp:33[m[K:
+[2.435s] [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/./sdk/include/sl_lidar_cmd.h:312:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[2.436s]   312 |     sl_u8  payload[[01;35m[K0[m[K];
+[2.436s]       |                    [01;35m[K^[m[K
+[2.436s] [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/sdk/src/sl_tcp_channel.cpp:[m[K In member function ‘[01m[Kvoid sl::TcpChannel::setStatus(_u32)[m[K’:
+[2.436s] [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/sdk/src/sl_tcp_channel.cpp:94:29:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kflag[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.436s]    94 |         void setStatus([01;35m[K_u32 flag[m[K){}
+[2.436s]       |                        [01;35m[K~~~~~^~~~[m[K
+[2.440s] [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/sdk/src/sl_udp_channel.cpp:[m[K In member function ‘[01m[Kvoid sl::UdpChannel::setStatus(_u32)[m[K’:
+[2.441s] [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/sdk/src/sl_udp_channel.cpp:104:29:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kflag[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.441s]   104 |         void setStatus([01;35m[K_u32 flag[m[K){}
+[2.441s]       |                        [01;35m[K~~~~~^~~~[m[K
+[2.458s] In file included from [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/./sdk/include/sl_lidar_cmd.h:36[m[K,
+[2.458s]                  from [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/./sdk/include/sl_lidar_driver.h:54[m[K,
+[2.458s]                  from [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/sdk/src/sl_udp_channel.cpp:33[m[K:
+[2.458s] [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/./sdk/include/sl_lidar_protocol.h:58:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[2.458s]    58 |     sl_u8 data[[01;35m[K0[m[K];
+[2.459s]       |                [01;35m[K^[m[K
+[2.459s] In file included from [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/./sdk/include/sl_lidar_driver.h:54[m[K,
+[2.459s]                  from [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/sdk/src/sl_udp_channel.cpp:33[m[K:
+[2.459s] [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/./sdk/include/sl_lidar_cmd.h:312:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[2.459s]   312 |     sl_u8  payload[[01;35m[K0[m[K];
+[2.459s]       |                    [01;35m[K^[m[K
+[2.464s] [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/sdk/src/sl_udp_channel.cpp:[m[K In member function ‘[01m[Kvoid sl::UdpChannel::setStatus(_u32)[m[K’:
+[2.464s] [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/sdk/src/sl_udp_channel.cpp:104:29:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kflag[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.464s]   104 |         void setStatus([01;35m[K_u32 flag[m[K){}
+[2.464s]       |                        [01;35m[K~~~~~^~~~[m[K
+[2.519s] [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/sdk/src/rplidar_driver.cpp:[m[K In member function ‘[01m[Ku_result rp::standalone::rplidar::RPlidarDriver::connect(const char*, _u32, _u32)[m[K’:
+[2.519s] [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/sdk/src/rplidar_driver.cpp:67:77:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kflag[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.519s]    67 |     u_result RPlidarDriver::connect(const char *path, _u32 portOrBaud, [01;35m[K_u32 flag[m[K)
+[2.519s]       |                                                                        [01;35m[K~~~~~^~~~[m[K
+[2.519s] [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/sdk/src/rplidar_driver.cpp:[m[K In member function ‘[01m[Ku_result rp::standalone::rplidar::RPlidarDriver::reset(_u32)[m[K’:
+[2.519s] [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/sdk/src/rplidar_driver.cpp:101:40:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.519s]   101 |     u_result RPlidarDriver::reset([01;35m[K_u32 timeout[m[K)
+[2.519s]       |                                   [01;35m[K~~~~~^~~~~~~[m[K
+[2.520s] [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/sdk/src/rplidar_driver.cpp:[m[K In member function ‘[01m[Ku_result rp::standalone::rplidar::RPlidarDriver::getScanDataWithInterval(rplidar_response_measurement_node_t*, size_t&)[m[K’:
+[2.520s] [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/sdk/src/rplidar_driver.cpp:180:91:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Knodebuffer[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.520s]   180 |     u_result RPlidarDriver::getScanDataWithInterval([01;35m[Krplidar_response_measurement_node_t * nodebuffer[m[K, size_t & count)
+[2.520s]       |                                                     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[2.520s] [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/sdk/src/rplidar_driver.cpp:180:112:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcount[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.520s]   180 |     u_result RPlidarDriver::getScanDataWithInterval(rplidar_response_measurement_node_t * nodebuffer, [01;35m[Ksize_t & count[m[K)
+[2.520s]       |                                                                                                       [01;35m[K~~~~~~~~~^~~~~[m[K
+[2.521s] In file included from [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/./sdk/include/rplidar_protocol.h:36[m[K,
+[2.521s]                  from [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/./sdk/include/rplidar.h:39[m[K,
+[2.521s]                  from [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/sdk/src/sdkcommon.h:49[m[K,
+[2.521s]                  from [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:33[m[K:
+[2.521s] [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/./sdk/include/sl_lidar_protocol.h:58:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[2.521s]    58 |     sl_u8 data[[01;35m[K0[m[K];
+[2.521s]       |                [01;35m[K^[m[K
+[2.522s] In file included from [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/./sdk/include/rplidar_cmd.h:36[m[K,
+[2.522s]                  from [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/./sdk/include/rplidar.h:40[m[K,
+[2.522s]                  from [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/sdk/src/sdkcommon.h:49[m[K,
+[2.522s]                  from [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:33[m[K:
+[2.522s] [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/./sdk/include/sl_lidar_cmd.h:312:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[2.522s]   312 |     sl_u8  payload[[01;35m[K0[m[K];
+[2.522s]       |                    [01;35m[K^[m[K
+[2.560s] [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual sl_result sl::SlamtecLidarDriver::reset(sl_u32)[m[K’:
+[2.560s] [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:274:32:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KtimeoutInMs[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.560s]   274 |         sl_result reset([01;35m[Ksl_u32 timeoutInMs = DEFAULT_TIMEOUT[m[K)
+[2.560s]       |                         [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.562s] [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual sl_result sl::SlamtecLidarDriver::getAllSupportedScanModes(std::vector<sl::LidarScanMode>&, sl_u32)[m[K’:
+[2.562s] [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:287:89:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KtimeoutInMs[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.562s]   287 |         sl_result getAllSupportedScanModes(std::vector<LidarScanMode>& outModes, [01;35m[Ksl_u32 timeoutInMs = DEFAULT_TIMEOUT[m[K)
+[2.562s]       |                                                                                  [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.562s] [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual sl_result sl::SlamtecLidarDriver::startScan(bool, bool, sl_u32, sl::LidarScanMode*)[m[K’:
+[2.563s] [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:348:69:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Koptions[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.563s]   348 |         sl_result startScan(bool force, bool useTypicalScan, [01;35m[Ksl_u32 options = 0[m[K, LidarScanMode* outUsedScanMode = nullptr)
+[2.563s]       |                                                              [01;35m[K~~~~~~~^~~~~~~~~~~[m[K
+[2.565s] [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual sl_result sl::SlamtecLidarDriver::stop(sl_u32)[m[K’:
+[2.565s] [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:543:31:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.565s]   543 |         sl_result stop([01;35m[Ksl_u32 timeout = DEFAULT_TIMEOUT[m[K)
+[2.565s]       |                        [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.565s] [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual sl_result sl::SlamtecLidarDriver::getDeviceInfo(sl_lidar_response_device_info_t&, sl_u32)[m[K’:
+[2.565s] [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:588:79:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.565s]   588 |         sl_result getDeviceInfo(sl_lidar_response_device_info_t& info, [01;35m[Ksl_u32 timeout = DEFAULT_TIMEOUT[m[K)
+[2.565s]       |                                                                        [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.566s] [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual sl_result sl::SlamtecLidarDriver::checkMotorCtrlSupport(sl::MotorCtrlSupport&, sl_u32)[m[K’:
+[2.566s] [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:601:76:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.566s]   601 |         sl_result checkMotorCtrlSupport(MotorCtrlSupport & support, [01;35m[Ksl_u32 timeout = DEFAULT_TIMEOUT[m[K)
+[2.566s]       |                                                                     [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.566s] [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual sl_result sl::SlamtecLidarDriver::getFrequency(const sl::LidarScanMode&, const sl_lidar_response_measurement_node_hq_t*, size_t, float&)[m[K’:
+[2.566s] [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:636:110:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Knodes[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.566s]   636 |         sl_result getFrequency(const LidarScanMode& scanMode, [01;35m[Kconst sl_lidar_response_measurement_node_hq_t* nodes[m[K, size_t count, float& frequency)
+[2.566s]       |                                                               [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[2.566s] [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual sl_result sl::SlamtecLidarDriver::getHealth(sl_lidar_response_device_health_t&, sl_u32)[m[K’:
+[2.567s] [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:662:79:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.567s]   662 |         sl_result getHealth(sl_lidar_response_device_health_t& health, [01;35m[Ksl_u32 timeout = DEFAULT_TIMEOUT[m[K)
+[2.567s]       |                                                                        [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.568s] [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual sl_result sl::SlamtecLidarDriver::getMotorInfo(sl::LidarMotorInfo&, sl_u32)[m[K’:
+[2.568s] [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:760:66:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KtimeoutInMs[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.568s]   760 |         sl_result getMotorInfo(LidarMotorInfo &motorInfo, [01;35m[Ksl_u32 timeoutInMs[m[K)
+[2.568s]       |                                                           [01;35m[K~~~~~~~^~~~~~~~~~~[m[K
+[2.574s] [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:[m[K In member function ‘[01m[Kvoid sl::SlamtecLidarDriver::_ultraCapsuleToNormal(const sl_lidar_response_ultra_capsule_measurement_nodes_t&, sl_lidar_response_measurement_node_hq_t*, size_t&)[m[K’:
+[2.574s] [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:1399:40:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kunsigned int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[2.574s]  1399 |                     if (([01;35m[Kdist_predict1 == 0xFFFFFE00[m[K) || (dist_predict1 == 0x1FF)) {
+[2.574s]       |                          [01;35m[K~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[2.574s] [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:1408:40:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kunsigned int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[2.574s]  1408 |                     if (([01;35m[Kdist_predict2 == 0xFFFFFE00[m[K) || (dist_predict2 == 0x1FF)) {
+[2.574s]       |                          [01;35m[K~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[2.576s] [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:[m[K In member function ‘[01m[Kvoid sl::SlamtecLidarDriver::_dense_capsuleToNormal(const sl_lidar_response_capsule_measurement_nodes_t&, sl_lidar_response_measurement_node_hq_t*, size_t&)[m[K’:
+[2.576s] [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:1606:38:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on cast result type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+[2.576s]  1606 |                     const int dist = [01;35m[Kstatic_cast<const int>(_cached_previous_dense_capsuledata.cabins[pos].distance)[m[K;
+[2.576s]       |                                      [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.649s] [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual sl_result sl::SlamtecLidarDriver::reset(sl_u32)[m[K’:
+[2.649s] [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:274:32:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KtimeoutInMs[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.649s]   274 |         sl_result reset([01;35m[Ksl_u32 timeoutInMs = DEFAULT_TIMEOUT[m[K)
+[2.649s]       |                         [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.651s] [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual sl_result sl::SlamtecLidarDriver::getAllSupportedScanModes(std::vector<sl::LidarScanMode>&, sl_u32)[m[K’:
+[2.651s] [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:287:89:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KtimeoutInMs[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.651s]   287 |         sl_result getAllSupportedScanModes(std::vector<LidarScanMode>& outModes, [01;35m[Ksl_u32 timeoutInMs = DEFAULT_TIMEOUT[m[K)
+[2.651s]       |                                                                                  [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.652s] [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual sl_result sl::SlamtecLidarDriver::startScan(bool, bool, sl_u32, sl::LidarScanMode*)[m[K’:
+[2.652s] [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:348:69:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Koptions[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.652s]   348 |         sl_result startScan(bool force, bool useTypicalScan, [01;35m[Ksl_u32 options = 0[m[K, LidarScanMode* outUsedScanMode = nullptr)
+[2.652s]       |                                                              [01;35m[K~~~~~~~^~~~~~~~~~~[m[K
+[2.654s] [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual sl_result sl::SlamtecLidarDriver::stop(sl_u32)[m[K’:
+[2.654s] [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:543:31:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.654s]   543 |         sl_result stop([01;35m[Ksl_u32 timeout = DEFAULT_TIMEOUT[m[K)
+[2.654s]       |                        [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.654s] [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual sl_result sl::SlamtecLidarDriver::getDeviceInfo(sl_lidar_response_device_info_t&, sl_u32)[m[K’:
+[2.655s] [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:588:79:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.655s]   588 |         sl_result getDeviceInfo(sl_lidar_response_device_info_t& info, [01;35m[Ksl_u32 timeout = DEFAULT_TIMEOUT[m[K)
+[2.655s]       |                                                                        [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.655s] [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual sl_result sl::SlamtecLidarDriver::checkMotorCtrlSupport(sl::MotorCtrlSupport&, sl_u32)[m[K’:
+[2.655s] [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:601:76:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.655s]   601 |         sl_result checkMotorCtrlSupport(MotorCtrlSupport & support, [01;35m[Ksl_u32 timeout = DEFAULT_TIMEOUT[m[K)
+[2.655s]       |                                                                     [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.655s] [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual sl_result sl::SlamtecLidarDriver::getFrequency(const sl::LidarScanMode&, const sl_lidar_response_measurement_node_hq_t*, size_t, float&)[m[K’:
+[2.656s] [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:636:110:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Knodes[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.656s]   636 |         sl_result getFrequency(const LidarScanMode& scanMode, [01;35m[Kconst sl_lidar_response_measurement_node_hq_t* nodes[m[K, size_t count, float& frequency)
+[2.656s]       |                                                               [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[2.656s] [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual sl_result sl::SlamtecLidarDriver::getHealth(sl_lidar_response_device_health_t&, sl_u32)[m[K’:
+[2.656s] [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:662:79:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.656s]   662 |         sl_result getHealth(sl_lidar_response_device_health_t& health, [01;35m[Ksl_u32 timeout = DEFAULT_TIMEOUT[m[K)
+[2.656s]       |                                                                        [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.657s] [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual sl_result sl::SlamtecLidarDriver::getMotorInfo(sl::LidarMotorInfo&, sl_u32)[m[K’:
+[2.657s] [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:760:66:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KtimeoutInMs[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.657s]   760 |         sl_result getMotorInfo(LidarMotorInfo &motorInfo, [01;35m[Ksl_u32 timeoutInMs[m[K)
+[2.657s]       |                                                           [01;35m[K~~~~~~~^~~~~~~~~~~[m[K
+[2.663s] [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:[m[K In member function ‘[01m[Kvoid sl::SlamtecLidarDriver::_ultraCapsuleToNormal(const sl_lidar_response_ultra_capsule_measurement_nodes_t&, sl_lidar_response_measurement_node_hq_t*, size_t&)[m[K’:
+[2.663s] [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:1399:40:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kunsigned int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[2.663s]  1399 |                     if (([01;35m[Kdist_predict1 == 0xFFFFFE00[m[K) || (dist_predict1 == 0x1FF)) {
+[2.663s]       |                          [01;35m[K~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[2.664s] [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:1408:40:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kunsigned int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[2.664s]  1408 |                     if (([01;35m[Kdist_predict2 == 0xFFFFFE00[m[K) || (dist_predict2 == 0x1FF)) {
+[2.664s]       |                          [01;35m[K~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[2.665s] [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:[m[K In member function ‘[01m[Kvoid sl::SlamtecLidarDriver::_dense_capsuleToNormal(const sl_lidar_response_capsule_measurement_nodes_t&, sl_lidar_response_measurement_node_hq_t*, size_t&)[m[K’:
+[2.665s] [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:1606:38:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on cast result type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+[2.665s]  1606 |                     const int dist = [01;35m[Kstatic_cast<const int>(_cached_previous_dense_capsuledata.cabins[pos].distance)[m[K;
+[2.665s]       |                                      [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.668s] [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:[m[K At global scope:
+[2.668s] [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:72:17:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid sl::convert(const sl_lidar_response_measurement_node_hq_t&, sl_lidar_response_measurement_node_t&)[m[K’ defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-function-Wunused-function]8;;[m[K]
+[2.668s]    72 |     static void [01;35m[Kconvert[m[K(const sl_lidar_response_measurement_node_hq_t& from, sl_lidar_response_measurement_node_t& to)
+[2.668s]       |                 [01;35m[K^~~~~~~[m[K
+[2.668s] [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:59:17:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid sl::printDeprecationWarn(const char*, const char*)[m[K’ defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-function-Wunused-function]8;;[m[K]
+[2.668s]    59 |     static void [01;35m[KprintDeprecationWarn[m[K(const char* fn, const char* replacement)
+[2.668s]       |                 [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[2.756s] [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:[m[K At global scope:
+[2.756s] [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:72:17:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid sl::convert(const sl_lidar_response_measurement_node_hq_t&, sl_lidar_response_measurement_node_t&)[m[K’ defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-function-Wunused-function]8;;[m[K]
+[2.756s]    72 |     static void [01;35m[Kconvert[m[K(const sl_lidar_response_measurement_node_hq_t& from, sl_lidar_response_measurement_node_t& to)
+[2.756s]       |                 [01;35m[K^~~~~~~[m[K
+[2.756s] [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:59:17:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid sl::printDeprecationWarn(const char*, const char*)[m[K’ defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-function-Wunused-function]8;;[m[K]
+[2.756s]    59 |     static void [01;35m[KprintDeprecationWarn[m[K(const char* fn, const char* replacement)
+[2.756s]       |                 [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[3.804s] In file included from [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/./sdk/include/sl_lidar_cmd.h:36[m[K,
+[3.804s]                  from [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/./sdk/include/sl_lidar_driver.h:54[m[K,
+[3.805s]                  from [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/./sdk/include/sl_lidar.h:36[m[K,
+[3.805s]                  from [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/src/rplidar_node.cpp:38[m[K:
+[3.805s] [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/./sdk/include/sl_lidar_protocol.h:58:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[3.805s]    58 |     sl_u8 data[[01;35m[K0[m[K];
+[3.805s]       |                [01;35m[K^[m[K
+[3.805s] In file included from [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/./sdk/include/sl_lidar_driver.h:54[m[K,
+[3.805s]                  from [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/./sdk/include/sl_lidar.h:36[m[K,
+[3.805s]                  from [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/src/rplidar_node.cpp:38[m[K:
+[3.805s] [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/./sdk/include/sl_lidar_cmd.h:312:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[3.806s]   312 |     sl_u8  payload[[01;35m[K0[m[K];
+[3.806s]       |                    [01;35m[K^[m[K
+[3.850s] In file included from [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/./sdk/include/sl_lidar_cmd.h:36[m[K,
+[3.850s]                  from [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/./sdk/include/sl_lidar_driver.h:54[m[K,
+[3.850s]                  from [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/./sdk/include/sl_lidar.h:36[m[K,
+[3.850s]                  from [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/src/rplidar_node.cpp:38[m[K:
+[3.851s] [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/./sdk/include/sl_lidar_protocol.h:58:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[3.851s]    58 |     sl_u8 data[[01;35m[K0[m[K];
+[3.851s]       |                [01;35m[K^[m[K
+[3.851s] In file included from [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/./sdk/include/sl_lidar_driver.h:54[m[K,
+[3.851s]                  from [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/./sdk/include/sl_lidar.h:36[m[K,
+[3.851s]                  from [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/src/rplidar_node.cpp:38[m[K:
+[3.851s] [01m[K/home/digitracknuc/lidar_ws/src/rplidar_ros/./sdk/include/sl_lidar_cmd.h:312:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[3.851s]   312 |     sl_u8  payload[[01;35m[K0[m[K];
+[3.851s]       |                    [01;35m[K^[m[K
+[6.299s] [ 92%] [32m[1mLinking CXX executable rplidar_node[0m
+[6.307s] [ 96%] [32m[1mLinking CXX executable rplidar_composition[0m
+[6.514s] [ 96%] Built target rplidar_node
+[6.521s] [ 96%] Built target rplidar_composition
+[8.958s] [100%] [32m[1mLinking CXX executable rplidar_client[0m
+[9.266s] [100%] Built target rplidar_client
+[9.275s] Invoked command in '/home/digitracknuc/lidar_ws/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/digitracknuc/lidar_ws/build/rplidar_ros -- -j12 -l12
+[9.314s] Invoking command in '/home/digitracknuc/lidar_ws/build/rplidar_ros': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/digitracknuc/lidar_ws/build/rplidar_ros
+[9.319s] -- Install configuration: ""
+[9.319s] -- Execute custom install script
+[9.320s] -- Symlinking: /home/digitracknuc/lidar_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a1_launch.py
+[9.327s] -- Symlinking: /home/digitracknuc/lidar_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a2m12_launch.py
+[9.333s] -- Symlinking: /home/digitracknuc/lidar_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a2m7_launch.py
+[9.339s] -- Symlinking: /home/digitracknuc/lidar_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a2m8_launch.py
+[9.344s] -- Symlinking: /home/digitracknuc/lidar_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a3_launch.py
+[9.350s] -- Symlinking: /home/digitracknuc/lidar_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s1_launch.py
+[9.356s] -- Symlinking: /home/digitracknuc/lidar_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s1_tcp_launch.py
+[9.362s] -- Symlinking: /home/digitracknuc/lidar_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s2_launch.py
+[9.368s] -- Symlinking: /home/digitracknuc/lidar_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s2e_launch.py
+[9.373s] -- Symlinking: /home/digitracknuc/lidar_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s3_launch.py
+[9.379s] -- Symlinking: /home/digitracknuc/lidar_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_t1_launch.py
+[9.385s] -- Symlinking: /home/digitracknuc/lidar_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a1_launch.py
+[9.391s] -- Symlinking: /home/digitracknuc/lidar_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a2m12_launch.py
+[9.397s] -- Symlinking: /home/digitracknuc/lidar_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a2m7_launch.py
+[9.402s] -- Symlinking: /home/digitracknuc/lidar_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a2m8_launch.py
+[9.408s] -- Symlinking: /home/digitracknuc/lidar_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a3_launch.py
+[9.414s] -- Symlinking: /home/digitracknuc/lidar_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s1_launch.py
+[9.420s] -- Symlinking: /home/digitracknuc/lidar_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s1_tcp_launch.py
+[9.425s] -- Symlinking: /home/digitracknuc/lidar_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s2_launch.py
+[9.431s] -- Symlinking: /home/digitracknuc/lidar_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s2e_launch.py
+[9.437s] -- Symlinking: /home/digitracknuc/lidar_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s3_launch.py
+[9.443s] -- Symlinking: /home/digitracknuc/lidar_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_t1_launch.py
+[9.449s] -- Symlinking: /home/digitracknuc/lidar_ws/install/rplidar_ros/share/rplidar_ros/rviz/rplidar_ros.rviz
+[9.455s] -- Symlinking: /home/digitracknuc/lidar_ws/install/rplidar_ros/lib/rplidar_ros/rplidar_node
+[9.461s] -- Symlinking: /home/digitracknuc/lidar_ws/install/rplidar_ros/lib/rplidar_ros/rplidar_composition
+[9.466s] -- Symlinking: /home/digitracknuc/lidar_ws/install/rplidar_ros/lib/rplidar_ros/rplidar_client
+[9.472s] -- Symlinking: /home/digitracknuc/lidar_ws/install/rplidar_ros/share/ament_index/resource_index/package_run_dependencies/rplidar_ros
+[9.478s] -- Symlinking: /home/digitracknuc/lidar_ws/install/rplidar_ros/share/ament_index/resource_index/parent_prefix_path/rplidar_ros
+[9.484s] -- Symlinking: /home/digitracknuc/lidar_ws/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.sh
+[9.490s] -- Symlinking: /home/digitracknuc/lidar_ws/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.dsv
+[9.496s] -- Symlinking: /home/digitracknuc/lidar_ws/install/rplidar_ros/share/rplidar_ros/environment/path.sh
+[9.501s] -- Symlinking: /home/digitracknuc/lidar_ws/install/rplidar_ros/share/rplidar_ros/environment/path.dsv
+[9.507s] -- Symlinking: /home/digitracknuc/lidar_ws/install/rplidar_ros/share/rplidar_ros/local_setup.bash
+[9.513s] -- Symlinking: /home/digitracknuc/lidar_ws/install/rplidar_ros/share/rplidar_ros/local_setup.sh
+[9.519s] -- Symlinking: /home/digitracknuc/lidar_ws/install/rplidar_ros/share/rplidar_ros/local_setup.zsh
+[9.525s] -- Symlinking: /home/digitracknuc/lidar_ws/install/rplidar_ros/share/rplidar_ros/local_setup.dsv
+[9.531s] -- Symlinking: /home/digitracknuc/lidar_ws/install/rplidar_ros/share/rplidar_ros/package.dsv
+[9.537s] -- Symlinking: /home/digitracknuc/lidar_ws/install/rplidar_ros/share/ament_index/resource_index/packages/rplidar_ros
+[9.542s] -- Symlinking: /home/digitracknuc/lidar_ws/install/rplidar_ros/share/rplidar_ros/cmake/ament_cmake_export_dependencies-extras.cmake
+[9.548s] -- Symlinking: /home/digitracknuc/lidar_ws/install/rplidar_ros/share/rplidar_ros/cmake/ament_cmake_export_include_directories-extras.cmake
+[9.554s] -- Symlinking: /home/digitracknuc/lidar_ws/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig.cmake
+[9.560s] -- Symlinking: /home/digitracknuc/lidar_ws/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig-version.cmake
+[9.566s] -- Symlinking: /home/digitracknuc/lidar_ws/install/rplidar_ros/share/rplidar_ros/package.xml
+[9.573s] Invoked command in '/home/digitracknuc/lidar_ws/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/digitracknuc/lidar_ws/build/rplidar_ros
